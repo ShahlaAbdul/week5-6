@@ -1,0 +1,27 @@
+#accordion{
+    margin: 0 auto;
+    width: 600px;
+}
+#accordion .contentbox .label{
+    background-color: aqua;
+    padding: 20px;
+    font-size: 22px;
+    
+}
+#accordion .contentbox .content{
+    background-color: rgb(14, 127, 153);
+    color: black;
+    padding: 20px;
+    height: 0;
+    transition: 1s;
+    overflow: hidden;
+
+}
+#accordion .contentbox .content p {
+    padding: 15px;
+    font-size: 22px;
+
+}
+#accordion .contentbox.active .content {
+    height: 150px !important;
+}
